@@ -1,4 +1,4 @@
-LOCAL_PATH := device/gpd/xds
+LOCAL_PATH := device/xiaomi/cappu
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
@@ -6,7 +6,7 @@ PRODUCT_AAPT_CONFIG := normal hdpi
 PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # Recovery allowed devices
-TARGET_OTA_ASSERT_DEVICE := xds
+TARGET_OTA_ASSERT_DEVICE := cappu
 
 # TARGET_SKIP_OTA_PACKAGE := true
 
@@ -55,4 +55,4 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, device/mediatek/mt8173-common/mt8173.mk)
 
 # Vendor
-$(call inherit-product, vendor/gpd/xds/xds-vendor.mk)
+$(call inherit-product, vendor/xiaomi/cappu/cappu-vendor.mk)
