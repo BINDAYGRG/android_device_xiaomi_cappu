@@ -1,4 +1,4 @@
-GPD XD+ (Plus)
+Xiaomi Mi Pad3
 ==============
 
 The XD+ (Plus) (codenamed _"xds"_) is a Mediatek MT8176-based Android handheld console from GPD and the successor to the original Rockchip RK3288-based XD.
