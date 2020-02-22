@@ -1,4 +1,4 @@
-LOCAL_PATH := device/gpd/xds
+LOCAL_PATH := device/xiaomi/cappu
 include device/mediatek/mt8173-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
@@ -15,7 +15,7 @@ MTK_INTERNAL_CDEFS += $(foreach t,$(AUTO_ADD_GLOBAL_DEFINE_BY_NAME_VALUE),$(if $
 #COMMON_GLOBAL_CPPFLAGS += $(MTK_INTERNAL_CDEFS)
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/gpd/xds
+TARGET_KERNEL_SOURCE := kernel/xiaomi/cappu
 TARGET_KERNEL_CONFIG := mt8176_defconfig
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
@@ -48,7 +48,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/class/android_usb/android0/f_mass_storage/lun/file
 
-TARGET_RECOVERY_FSTAB := device/gpd/xds/rootdir/fstab.mt8173
+TARGET_RECOVERY_FSTAB := device/xiaomi/cappu/rootdir/fstab.mt8173
 
 # System properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
